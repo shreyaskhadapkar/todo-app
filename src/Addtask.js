@@ -27,8 +27,9 @@ class Addtask extends Component{
     render(){
         return(
             <form className="form-group my-4 " onSubmit={this.Submit} >
+                <p>Click to Cancel</p>
                 <div className="input-group-lg mb-3 rounded-pill">
-                 <input  className="form-control rounded" placeholder="Create a To-do" id="input" onChange = { this.Change}/>
+                    <input  className="form-control rounded" placeholder="Create a To-do" id="input" onChange = { this.Change}/>
                 </div>
                 <button className = "btn btn-primary btn-lg rounded float-right" type = "submit">Add To-Do</button>
             </form>

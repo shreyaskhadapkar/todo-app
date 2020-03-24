@@ -15,7 +15,7 @@ class Addtask extends Component{
     };
     Submit = e => {
         e.preventDefault();
-        if(document.getElementById("input")===""){
+        if(document.getElementById("input").value === ""){
             alert("You cannot add Empty To-do");
         }
         else
